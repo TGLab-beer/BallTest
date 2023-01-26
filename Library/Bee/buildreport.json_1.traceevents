@@ -1,0 +1,492 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674761345171792, "dur": 5149422, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761345172168, "dur": 2168, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761345174339, "dur": 39355, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761345213696, "dur": 941296, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761346154994, "dur": 4165020, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761350320016, "dur": 1198, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761350321792, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674761345803552, "dur": 323320, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761345804777, "dur": 193542, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761346102820, "dur": 6086, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761346108910, "dur": 17946, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761346109913, "dur": 15929, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761346134003, "dur": 1804, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674761346132906, "dur": 2940, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761350321958, "dur": 2096, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674761346214881, "dur":2401, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761346217291, "dur":73, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674761346217381, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674761346217402, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674761346217553, "dur":710, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761346218263, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350258628, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350258634, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350258644, "dur":36, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350258680, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350258689, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350259433, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350259510, "dur":1989, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674761346218128, "dur":141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346218269, "dur":6804, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346225087, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674761346225094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346235888, "dur":5107, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674761346241001, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674761346241106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346241664, "dur":15748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674761346257414, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346257533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346258580, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346259794, "dur":7108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346266905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346267048, "dur":9507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346276613, "dur":10218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346286835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346286845, "dur":8334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346295225, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346295343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346295709, "dur":12346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346308112, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674761346308238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346308306, "dur":9173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674761346317632, "dur":13948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346331586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346331595, "dur":4291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346335936, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674761346336064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346336071, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674761346339432, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346339573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346430405, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674761346431802, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674761346431913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346431977, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674761346438743, "dur":23986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346462733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346462744, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761346463917, "dur":207947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346671869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346671876, "dur":21049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346692973, "dur":15089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346708067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346708560, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346710885, "dur":24484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346735374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346735563, "dur":11930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346747620, "dur":47930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346795556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346795564, "dur":10106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346805715, "dur":49516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346855235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346855244, "dur":14673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346869961, "dur":33071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346903037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346903045, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346906848, "dur":25785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346932638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346932646, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346934534, "dur":29125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346963664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761346963673, "dur":6008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761346969739, "dur":41998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347011742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347011751, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347016228, "dur":84615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347100848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347100856, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347104887, "dur":128239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347233131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347233159, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347238835, "dur":35470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347274309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347274318, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347276557, "dur":95990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347372573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347372582, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347378454, "dur":34870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347413329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347413337, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347415210, "dur":20144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347435360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347435368, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347437142, "dur":25106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347462252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347462261, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347464855, "dur":34656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347499514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347499520, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347501821, "dur":15515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347517341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347517350, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347518689, "dur":58638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347577331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347577340, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347580089, "dur":43428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347623522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347623530, "dur":18207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347641784, "dur":34719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347676508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347676516, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347679028, "dur":18640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347697673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347697682, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347700681, "dur":15811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347716497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347716505, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347717502, "dur":49055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347766562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347766570, "dur":17584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347784199, "dur":37290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347821493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347821502, "dur":10201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347831751, "dur":23809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347855565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347855575, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347861260, "dur":21171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347882436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347882444, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347886943, "dur":27436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347914383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347914392, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347916435, "dur":33852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347950291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761347950299, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761347953918, "dur":185330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348139253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348139261, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348146274, "dur":38595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348184874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348184904, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348188189, "dur":40453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348228647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348228655, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348233467, "dur":39586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348273057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348273099, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348276599, "dur":17741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348294345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348294354, "dur":14690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348309175, "dur":45108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348354288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348354297, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348356488, "dur":102842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348459336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348459344, "dur":3929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348463317, "dur":58628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348521950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348521959, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348524092, "dur":235776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348759872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348759881, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348763066, "dur":37725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348800796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348800805, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348804618, "dur":15215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348819839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348819847, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348820916, "dur":79355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348900276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348900285, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348902161, "dur":49583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348951748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761348951756, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761348954417, "dur":85818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349040241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349040249, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349044522, "dur":143075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349187602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349187610, "dur":5984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349193640, "dur":82529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349276174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349276182, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349278109, "dur":36773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349314887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349314896, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349316257, "dur":37727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349353989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349353998, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349356020, "dur":170620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349526644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349526653, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349531484, "dur":175796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349707285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349707293, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349710208, "dur":94660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349804873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349804882, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349808975, "dur":89642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349898621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761349898629, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761349900602, "dur":188274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761350088881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350088890, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761350090459, "dur":31513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761350121977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350121986, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674761350125250, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350125382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350125742, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350126649, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1674761350126691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350126736, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1674761350127950, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350127996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350128059, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350130705, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350130749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350130756, "dur":7776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350138575, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350138705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350138712, "dur":10538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350149295, "dur":16284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350165584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350165591, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1674761350167288, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350167337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350167343, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350169896, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350169938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350169945, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350170851, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350170892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350170897, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674761350175370, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674761350176234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350176244, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674761350179709, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350179751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350179758, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674761350181789, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1674761350181833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350181839, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1674761350186465, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761350186587, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674761350186593, "dur":18548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674761350205183, "dur":53388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346219153, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346219153, "dur":5925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346225087, "dur":35302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674761346260394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346265896, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674761346266879, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674761346266987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346267050, "dur":26775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674761346293888, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674761346294002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346294010, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674761346297550, "dur":38140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346335694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346335703, "dur":94756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346430505, "dur":10954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346441464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346441474, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346442803, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674761346442925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346442933, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674761346444680, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346444789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346444797, "dur":6482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1674761346451340, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1674761346451445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346451471, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1674761346454862, "dur":4159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346459025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346459290, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346460537, "dur":81976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346542518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346542607, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346547806, "dur":14283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1674761346562093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346562101, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1674761346563876, "dur":72439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest.exe" }}
+,{ "pid":12345, "tid":2, "ts":1674761346636318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346636326, "dur":10895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest.exe" }}
+,{ "pid":12345, "tid":2, "ts":1674761346647438, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1674761346647564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346649163, "dur":26027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1674761346675252, "dur":61533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346736789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346736797, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346740429, "dur":29633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346770067, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346770080, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346771047, "dur":29226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346800277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346800286, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346801789, "dur":14517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346816311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346816322, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346817296, "dur":15410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346832711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346832719, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346833734, "dur":79149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346912887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346912896, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346914905, "dur":22921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346937831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346937839, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346940055, "dur":13537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346953597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761346953605, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761346954627, "dur":65979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347020611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347020639, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347023947, "dur":21551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347045503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347045511, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347047334, "dur":22652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347069991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347069999, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347073746, "dur":41945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347115696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347115704, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347117606, "dur":104438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347222049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347222057, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347223761, "dur":19362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347243128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347243136, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347247653, "dur":37629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347285287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347285295, "dur":4356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347289697, "dur":36828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347326530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347326538, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347328597, "dur":26779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347355381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347355389, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347357169, "dur":44172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347401346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347401354, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347406251, "dur":39240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347445495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347445504, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347449014, "dur":26328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347475574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347475584, "dur":4410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347480039, "dur":19342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347499386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347499395, "dur":15356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347514807, "dur":17993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347532805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347532814, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347534818, "dur":78617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347613439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347613448, "dur":24112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347637776, "dur":52544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347690325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347690333, "dur":5306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347695685, "dur":48022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347743712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347743720, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347747089, "dur":99501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347846596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347846605, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347848435, "dur":18070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347866510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347866539, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347867565, "dur":57260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347924830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347924838, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347927152, "dur":17116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347944273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347944282, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347949330, "dur":24265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347973600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761347973627, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761347976349, "dur":28355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348004709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348004718, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348006544, "dur":16865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348023414, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348023434, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348025346, "dur":29332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348054683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348054691, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348056515, "dur":109770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348166289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348166298, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348169832, "dur":23630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348193467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348193476, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348198360, "dur":169662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348368026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348368346, "dur":6325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348374782, "dur":92015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348466801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348466810, "dur":8131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348474983, "dur":73090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348548078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348548086, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348550111, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348550853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348550862, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348554153, "dur":62405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348616583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348616592, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348620640, "dur":27877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348648522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348648531, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348651701, "dur":31843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348683549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348683557, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348685556, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348686325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348686334, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348689799, "dur":41448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348731252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348731261, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348735501, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348736297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348736306, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348742167, "dur":19112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348761283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348761292, "dur":11841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348773179, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348774062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348774070, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348776599, "dur":53229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348829834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761348829842, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761348835200, "dur":240621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349075825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349076020, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349079725, "dur":138470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349218199, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349218216, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349220507, "dur":68913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349289425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349289433, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349291192, "dur":88803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349380000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349380009, "dur":3248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349383304, "dur":174279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349557610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349557618, "dur":7633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349565294, "dur":41059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349606358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349606367, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349608314, "dur":128294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349736615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349736624, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349740018, "dur":100577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349840600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349840701, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349845920, "dur":34654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349880579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761349880612, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761349885559, "dur":355702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761350241265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674761350241273, "dur":17220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/A-Gam/OneDrive/ /Game/BallTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674761350258541, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1674761350258544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674761350290914, "dur":3266, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674761350324135, "dur": 969, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674761350321781, "dur": 3361, "ph": "X", "name": "Write chrome-trace events", "args": {} },
